@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@ecowise.test",
+      "username": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "sub@ecowise.test",
+      "username": "sub",
+      "role": "subscriber",
+      "interestedTopics": [
+        1,
+        2
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": 1,
+      "title": "Issue #1: Intro to Sustainable Investing",
+      "content": "Welcome to EcoWise Wealth Digest! Sustainable investing involves considering environmental, social, and governance (ESG) criteria...",
+      "published": true,
+      "date": "2024-01-01T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Issue #2: The Rise of Green Bonds",
+      "content": "Green bonds are a great way to fund projects that have positive environmental benefits...",
+      "published": true,
+      "date": "2024-02-01T12:00:00Z"
+    }
+  ],
+  "guides": [
+    {
+      "id": 1,
+      "title": "Beginner's Guide to ESG",
+      "content": "ESG stands for Environmental, Social, and Governance. Investors are increasingly applying these non-financial factors as part of their analysis process to identify material risks and growth opportunities.",
+      "topicIds": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Understanding Carbon Credits",
+      "content": "A carbon credit is a generic term for any tradable certificate or permit representing the right to emit one tonne of carbon dioxide...",
+      "topicIds": [
+        2
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "ESG"
+    },
+    {
+      "id": 2,
+      "name": "Carbon"
+    },
+    {
+      "id": 3,
+      "name": "Renewables"
+    }
+  ],
+  "savedItems": [
+    {
+      "id": 1779810641783,
+      "userId": 2,
+      "type": "issue",
+      "articleId": 1,
+      "title": "Test Issue"
+    },
+    {
+      "id": 1779810679120,
+      "userId": 2,
+      "type": "issue",
+      "articleId": 1,
+      "title": "Test Issue"
+    },
+    {
+      "id": 1779811016058,
+      "userId": 2,
+      "type": "issue",
+      "articleId": 1,
+      "title": "Test Issue"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": 1779811035462,
+      "action": "TEST_ACTION",
+      "details": {},
+      "date": "2026-05-26T15:57:15.462Z"
+    }
+  ]
+}
